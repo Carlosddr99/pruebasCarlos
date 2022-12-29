@@ -1,0 +1,53 @@
+body{
+    background-color: #e0dfdfa5;
+}
+.estudiosFecha{
+    width: 40%;
+    flex-direction: column;
+}
+.parrafoInfo{
+    align-content: center;
+    justify-content: center;
+}
+.estudiosSeparado{
+    position: relative;
+    display: flex;
+    border: 2px solid;
+    padding: 10px;
+}
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    
+}
+h1{
+    width: 30%;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+a{
+    font-size: 20px;
+    text-decoration:none;
+    color: black;
+}
+a:hover{
+    background-color: yellow;
+}
+.cajas{
+    display: flex;
+    flex-direction: column;
+}
+.inputCajas{
+    width: 30%;
+}
